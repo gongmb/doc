@@ -77,7 +77,10 @@ community 接口列表
         参数:
         {
         	 "current":"1",
-              "size":"1"
+                "size":"1" ,
+                "genreId":"b915956fc1014b48bd838c093a05cdd4",//类型
+                "subjectId":"de99139cfe264b82a4dd25857f349dab",//主题
+                "cityId":"210300"//地级市
         }
 
         返回值:
@@ -99,6 +102,34 @@ community 接口列表
                     ]
                 }
             }
+## 4、查询社群列表
+          path:/community/communityInfo/searchCommunityInfoList.json
+          参数:
+          {
+          		 "current":"1",
+                  "size":"1" ,
+          	    "search":"北京"
+          }
+          返回值:
+          {
+              "code": "200",
+              "msg": "成功",
+              "data": {
+                  "current": 1,
+                  "size": 1,
+                  "total": 1,
+                  "haveNextPage": false,
+                  "communityResultBoList": [
+                      {
+                          "subTitle": "副标题59",
+                          "headImage": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1405/31/c0/34808184_34808184_1401494219156_mthumb.jpg",
+                          "id": "a11c49efeddc4cdd983bb116e92cba18"
+                      }
+                  ],
+                  "search": "北京"
+              }
+          }
+
 
 # 微信相关接口
 
