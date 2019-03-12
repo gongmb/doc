@@ -90,19 +90,23 @@ community 接口列表
                 "data": {
                     "current": 1,
                     "size": 1,
-                    "total": 100,
-                    "haveNextPage": true,
+                    "total": 1,
+                    "haveNextPage": false,
+                    "genreId": "b915956fc1014b48bd838c093a05cdd4",
+                    "subjectId": "de99139cfe264b82a4dd25857f349dab",
+                    "cityId": "210300",
                     "communityResultBoList": [
                         {
-                            "mainTitle": "主标题99",
-                            "subTitle": "副标题99",
+                            "mainTitle": "主标题90",
+                            "subTitle": "副标题90",
                             "headImage": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1405/31/c0/34808184_34808184_1401494219156_mthumb.jpg",
-                            "id": "d9185780d6fe408792a9cf1c1be9fe46"
+                            "id": "29ac699342034995bcff5c16cb49c0ff",
+                            "qrCode": "http://b-ssl.duitang.com/uploads/item/201304/28/20130428233512_xiCfk.thumb.700_0.jpeg"
                         }
                     ]
                 }
             }
-## 4、查询社群列表
+## 4、搜索社群列表
           path:/community/communityInfo/searchCommunityInfoList.json
           参数:
           {
@@ -123,7 +127,8 @@ community 接口列表
                       {
                           "subTitle": "副标题59",
                           "headImage": "http://img.pconline.com.cn/images/upload/upc/tx/photoblog/1405/31/c0/34808184_34808184_1401494219156_mthumb.jpg",
-                          "id": "a11c49efeddc4cdd983bb116e92cba18"
+                          "id": "a11c49efeddc4cdd983bb116e92cba18",
+                          "qrCode": "http://b-ssl.duitang.com/uploads/item/201304/28/20130428233512_xiCfk.thumb.700_0.jpeg"
                       }
                   ],
                   "search": "北京"
